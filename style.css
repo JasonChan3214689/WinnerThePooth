@@ -1,0 +1,134 @@
+.header {
+  text-align: center;
+}
+
+.header h3 {
+  font-family: "Dancing Script", cursive;
+  color: rgb(2, 46, 2);
+  font-size: 2rem;
+}
+
+.header hr {
+  width: 30%;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  height: auto;
+}
+
+.main .box {
+  width: 8%;
+  height: 80vh;
+  margin: 0.5rem;
+}
+
+.box1 {
+  background-image: url(./2297892.jpg);
+  filter: grayscale(100%);
+  background-size: cover;
+  background-position: center;
+}
+
+.box2 {
+  background-image: url(./2297892.jpg);
+  filter: grayscale(100%);
+  background-size: cover;
+  background-position: center;
+}
+
+.box3 {
+  background-image: url(./2297892.jpg);
+  filter: grayscale(100%);
+  background-size: cover;
+  background-position: center;
+}
+
+.box4 {
+  background-image: url(./2297892.jpg);
+  filter: grayscale(100%);
+  background-size: cover;
+  background-position: center;
+}
+
+.box5 {
+  background-image: url(./2297892.jpg);
+  filter: grayscale(100%);
+  background-size: cover;
+  background-position: center;
+}
+
+.box6 {
+  background-image: url(./2297892.jpg);
+  filter: grayscale(100%);
+  background-size: cover;
+  background-position: center;
+}
+
+.box7 {
+  background-image: url(./2297892.jpg);
+  filter: grayscale(100%);
+  background-size: cover;
+  background-position: center;
+}
+
+.box8 {
+  background-image: url(./2297892.jpg);
+  filter: grayscale(100%);
+  background-size: cover;
+  background-position: center;
+}
+
+.box1:hover {
+  filter: grayscale(0);
+  transform: scale(1.2);
+}
+
+.box2:hover {
+  filter: grayscale(0);
+  transform: scale(1.2);
+}
+
+.box3:hover {
+  filter: grayscale(0);
+  transform: scale(1.2);
+}
+
+.box4:hover {
+  filter: grayscale(0);
+  transform: scale(1.2);
+}
+
+.box5:hover {
+  filter: grayscale(0);
+  transform: scale(1.2);
+}
+
+.box6:hover {
+  filter: grayscale(0);
+  transform: scale(1.2);
+}
+
+.box7:hover {
+  filter: grayscale(0);
+  transform: scale(1.2);
+}
+
+.box8:hover {
+  filter: grayscale(0);
+  transform: scale(1.2);
+}
+
+/*手機 */
+/* mobile */
+@media only screen and (max-width: 640px) {
+  .main {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .main .box {
+    width: 400px;
+    height: 50vh;
+  }
+}
